@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+
+# Vector DB & Local Storage
+data/chroma_db/
+*.db
+*.sqlite3
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Uploaded Temp Files
+data/*.pdf
+
+# IDE & OS
+.vscode/
+Thumbs.db
+.DS_Store
